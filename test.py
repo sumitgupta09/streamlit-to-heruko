@@ -20,7 +20,7 @@ def load_image():
 
 
 def predict():
-    model = keras.models.load_model("./mymodel.h5")
+    model = keras.models.load_model("https://github.com/sumitgupta09/streamlit-to-heruko/blob/master/mymodel.h5")
     data=[]
     path="positive.jpeg"
     path1="negative.jpeg"
